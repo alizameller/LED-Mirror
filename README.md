@@ -1,2 +1,2 @@
 # LED-Mirror
-A wall of LED's that displays a reflection of the person/object standing in front of it
+A wall of LEDs that displays a reflection of the person/object standing in front of it
