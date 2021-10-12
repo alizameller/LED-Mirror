@@ -11,7 +11,7 @@ def resize_image(array):
     #check if array is correct
     ##print(array)
 
-    # dsize
+    #size of array
     dsize = (12, 12)
 
     return cv2.resize(array, dsize)
@@ -32,7 +32,7 @@ while True:
     resize = resize_image(array)
 
     im1.set_data(resize)
-    plt.pause(0.0001)
+    plt.pause(0.0001) #refresh rate time
 
 plt.ioff() #due to infinite loop, this gets never called.
 plt.show()
