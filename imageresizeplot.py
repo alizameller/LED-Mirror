@@ -9,24 +9,17 @@ def grab_frame(cap):
 
 def resize_image(array):
     #check if array is correct
-    print(array)
-
-    #percent by which the image is resized
-    #scale_percent = 7
-
-    #calculate the 50 percent of original dimensions
-    #width = int(array.shape[1] * scale_percent / 100)
-    #height = int(array.shape[0] * scale_percent / 100)
+    ##print(array)
 
     # dsize
-    dsize = (64, 84)
+    dsize = (12, 12)
 
     return cv2.resize(array, dsize)
 
 #Initiate the camera
 cap1 = cv2.VideoCapture(0)
 
-a = numpy.random.rand(64, 84)
+a = numpy.random.rand(12, 12)
 
 plt.ion()
 
