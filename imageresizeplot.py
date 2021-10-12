@@ -32,7 +32,7 @@ while True:
     resize = resize_image(array)
 
     im1.set_data(resize)
-    plt.pause(0.2)
+    plt.pause(0.0001)
 
 plt.ioff() #due to infinite loop, this gets never called.
 plt.show()
