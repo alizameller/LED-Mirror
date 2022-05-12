@@ -1,3 +1,4 @@
+# Displays an image to 11x12 matrix of LEDs
 # Import required libraries
 from PIL import Image
 import numpy as np
@@ -47,7 +48,7 @@ numNeopixels_x = 12 #Declare number of Neopixels in grid
 numNeopixels_y = 11
   
 #while(1):
-image  = Image.open('rgbcircle.jpeg')
+image  = Image.open('rgbcircle.jpeg') #specify Image file name (include path if not located in current directory)
 resizedImage = reshape(image, numNeopixels_x, numNeopixels_y)
   
 image = resizedImage.convert('RGB')
