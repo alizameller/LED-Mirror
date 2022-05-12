@@ -48,7 +48,7 @@ numNeopixels_x = 12 #Declare number of Neopixels in grid
 numNeopixels_y = 11
   
 #while(1):
-image  = Image.open('rgbcircle.jpeg') #specify Image file name (include path if not located in current directory)
+image  = Image.open('inputfiles/rgbcircle.jpeg') #specify Image file name (include path if not located in current directory)
 resizedImage = reshape(image, numNeopixels_x, numNeopixels_y)
   
 image = resizedImage.convert('RGB')
