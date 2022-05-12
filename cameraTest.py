@@ -1,3 +1,4 @@
+# Test if the camera works and see camera output
 from picamera import PiCamera
 from time import sleep
 
